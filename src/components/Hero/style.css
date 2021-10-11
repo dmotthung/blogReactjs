@@ -1,0 +1,37 @@
+section.hero {
+    padding: 0;
+    color: #fff;
+    background-image: url(../../assets/img/hero.jpg);
+    background-size: cover; 
+    background-position: center center
+  }
+  
+  section.hero .container {
+    padding: 200px 20px;
+    position: relative;
+  }
+  
+  section.hero h1 {
+    line-height: 1.2em;
+  }
+  
+  section.hero .continue {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    text-decoration: none !important;
+    color: inherit !important;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    opacity: 0.8;
+  }
+  
+  section.hero .continue i {
+    margin-right: 5px;
+  }
+
+  @media (max-width: 767px) {
+    section.hero .container {
+      padding: 150px 20px;
+    }
+  }
